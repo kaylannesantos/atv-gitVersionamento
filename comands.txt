@@ -1,0 +1,26 @@
+git config --global user.name 'nome'
+git config --global user.email 'email'
+git init - iniciar repositorio 
+git status - rastrear alteraçõe no repositorio
+git add - add verso no repositorio
+git commit - salvar as alterações
+git log - visualizar log da alteração	
+git show numero-do-commit
+git remote add origin 'destino'
+git remove -v
+git push -u origin master
+git pull
+git pull origin 'tarefa/nomedabranch' - para fazer o download da outra branch
+git merge 'nomedabranch' - para mesclar a branch atual com outras branchs localmente
+git merge origin 'nomedabranch' - para mesclar com uma branch remota
+tag - marcacao de commit ao dercorrer de um desenvolvimento (ao criar uma tag todo o arquivo fonte criado ate a marcacao da tag é compactado em um unico arquivo)
+git tag -a 'nomedatag' -m "comentario da tag" - para criar uma tag
+git tag - para visualizar tags criadas
+git push origin --tags - para salvar no repositorio remoto as tags criadas
+-Comandos adicionais
+git branch -D 'nomedabranch' - para deletar uma branch localmente
+git branch - para listar branchs
+git branch --merged - para verficar branchs mescladas a branch atual
+git branch --no-merged - para verificar branchs que nao estao mescladas a branch atual
+git tag -d nomedatag - para remover uma tag localmente
+git push origin --delete 'nomedabranch' - para deletar uma branch remotamente
